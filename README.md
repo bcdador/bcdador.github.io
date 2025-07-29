@@ -1,1 +1,1 @@
-# bcdador.github.io/week1/activity
+# bcdador.github.io/
