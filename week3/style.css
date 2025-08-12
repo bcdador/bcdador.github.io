@@ -1,0 +1,39 @@
+h1{
+    color:rgb(255, 255, 255);
+    font-family: "Limelight", sans-serif;
+
+
+}
+.head1{
+    color:rgb(0, 0, 0);
+    font-family: "Limelight", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-color:beige;
+    border: 5px dashed black ;
+    padding: 50px;
+    margin-bottom: 200px;
+}
+.par1{
+    color:sienna;
+    font-size: 50px;
+    background-color:white;
+    border:1px dotted gray;
+    background-color:wheat;
+
+}
+
+.par2{
+    color:brown;
+    font-size: 50px;
+    font-family: "Lexend Giga", sans-serif;
+    background-color:white;
+    border:1px dotted gray;
+    background-color:wheat;
+}
+
+body{
+    background-image: url("images/images.jpg");
+
+}
+
