@@ -1,0 +1,36 @@
+.body {
+      font-family: 'Nunito', sans-serif;
+    }
+.container-row{
+  display: grid;
+  grid-template-rows: 200px 1fr 50px;
+}
+.banner {
+      background: url('images/banner-image-bg.jpg') no-repeat center center/cover;
+      padding: 100px 0;
+    }
+.banner-content img {
+      max-width: 100%;
+      height: auto;
+}
+.custom-card {
+  border-radius: 10px;
+  overflow: hidden; 
+  background-color: #fff;
+}
+
+.custom-card .list-group-item {
+  border: none;
+  border-top: 1px solid #eee;
+  font-family: 'Nunito', sans-serif;
+  padding: 12px 20px;
+}
+
+.custom-card h5 {
+  color: #333;
+  font-family: 'Nunito', sans-serif;
+}
+
+.list-group-item:hover {
+  background-color: #fdf2f2; 
+}
