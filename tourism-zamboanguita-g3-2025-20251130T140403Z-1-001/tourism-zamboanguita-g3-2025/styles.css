@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: #F9F8F6;
+    text-align: center;
+    padding: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    align-items: center;
+    background-color: #EFE9E3;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 10px;
+}
+header .logo img {
+    width: auto;
+    height: 70px;
+}
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    border-color: #DDDAD0;
+    transition: all 0.3s smooth;
+}
+header nav a:hover {
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: rgb(139, 132, 139) 0px 0px 4px 2px;
+    color: #000000;
+    transform: scale(1.05);
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    gap: 20px;
+    padding: 10px;
+}
+section {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+div .row {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: var(--text-primary);
+}
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: var(--text-primary);
+}
+h4 {
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: black;
+    line-height: 1.6;
+    text-align: center;
+}
+section img {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    box-shadow: rgb(123, 122, 123) 0px 0px 8px 4px;
+}
+button {
+    background-color: var(--button);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgb(70, 67, 70) 0px 0px 4px 2px;
+    transition: all 0.3s ease;
+}
+button:hover {
+    background-color: var(--button-hover);
+    transform: scale(1.05);
+    box-shadow: rgb(58, 57, 58) 0px 0px 6px 3px;
+}
+button a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+}
+
+.web {
+    text-decoration: none;
+    color: #000000;
+}
+.web:hover {
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: rgb(139, 132, 139) 0px 0px 4px 2px;
+    color: #000000;
+    transform: scale(1.05);
+}
+footer nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+blockquote {
+    border-left: 4px solid var(--button);
+    padding-left: 10px;
+    font-style: italic;
+    color: var(--text-secondary);
+}
